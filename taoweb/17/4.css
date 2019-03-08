@@ -1,0 +1,40 @@
+div.tieude{
+	border-bottom: 4px solid red;
+}
+div.tieude h2{
+	font-family: 'Charm', cursive;
+	background: white;
+	display: inline-block;
+	position: relative;
+	top: 36px;
+	left: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.tin{
+	width: 189px;
+	height: 156px;
+	margin-right: 10px;
+	float:left;
+	margin-top: 15px;
+	
+}
+div.tin img{
+	width: 189px;
+}
+div.tin a.duongdan{
+	text-decoration: none;
+	font-family: tomaha;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;	
+}
+div.tin a.duongdan:hover{
+	color:orange;
+}
+.cucto{
+	width: 786px;
+}
+.tin:nth-child(4n){
+	margin-right: 0px;
+}

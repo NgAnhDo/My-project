@@ -1,0 +1,71 @@
+a.tieudeto{
+	font-family: 'Prompt', sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	color: #00bbf3;
+	border-left: 5px solid #00bbf3;
+	padding-left: 6px;
+}
+a.tieudeto:hover{
+	text-decoration: underline;
+}
+.trai{
+	width: 340px;
+	height: 400px;
+	background-color: #f6f6f6;
+		float: left;
+}
+.trai img{
+	width: 340px;
+
+}
+.trai a.tdtrai{
+	color:#004f8b;
+	text-decoration: none;
+	font-family:'Prompt', sans-serif;
+	font-size: 17px; 
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: block;
+	line-height: 20px;
+}
+.trai a.tdtrai:hover{
+	color: #1ec1e8
+}
+.trai p{
+	font-family:tahoma;
+	font-size: 13px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: block;
+	line-height: 16px;
+	color: #414141;
+	
+}
+.tin {
+	width: 167px;
+	height: 207px;
+	float: left;
+	margin-right: 13px;
+}
+.tin img{
+	width: 167px;
+}
+.phai{
+	width: 360px;
+	float: left;
+	margin-left: 10px;
+}
+a.tdphai{
+	text-decoration: none;
+	color: #004f8b;
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 17px;
+	display: block;
+}
+a.tdphai:hover{
+	color: #1ec1e8
+}

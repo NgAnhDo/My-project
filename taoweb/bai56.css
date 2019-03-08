@@ -1,0 +1,82 @@
+*{margin: 0;padding: 0}
+._1sp{
+	width: 264px;
+	height: 392px;
+	margin-bottom: 20px;
+}
+.tren{
+	width: 264px;
+	height: 336px;
+	position: relative;
+}
+.tren .layer1{
+	width: 264px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.tren .layer2{
+	width: 264px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	opacity: 0;
+	transition: 0.4s;
+}
+._1sp:hover .layer2{
+	opacity: 1;
+}
+div.icon{
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 20px;
+}
+.duoi {
+	padding-top:10px;
+
+}
+.duoi .tensp{
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+.duoi .tt{
+	margin-top: 10px;
+	position: relative;
+	width: 264px;
+	height: 30px;
+}
+.duoi .tt .gia{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	transition: 0.4s;
+	
+}
+.duoi .tt ._1icon{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	transition: 0.4s;
+}
+._1sp:hover .duoi .tt .gia{
+	top:-20px;
+	opacity: 0;
+}
+._1sp:hover .duoi .tt ._1icon{
+	top:0;
+	opacity: 1;
+}
+.nhieusp{
+	margin: auto;
+	width: 1086px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nhieusp{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 850px;
+	justify-content: space-between;
+	/*background-color: black;*/
+}
+.bo{
+	width: 270px;
+}
+.nho{
+	background-color: white;
+	color: black;
+	padding: 16px;
+	transition: 0.5s;
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.nho:last-child{
+	color: white;
+	background-color: orange;
+}
+.nho:hover{
+	color: white;
+	background-color: orange;
+	padding: 16px;
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.tren{
+	width: 270px;
+	height: 325px;
+	position: relative;
+}
+.tren .layer1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.tren .nen{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 270px;
+	height: 323px;
+	background-color: #ffffff87;
+	background-image: -webkit-linear-gradient(45deg,#f7c62661 15%,#f68c2f57 40%,#e5127d61 85%);
+	opacity: 0;
+	transition: 0.4s;
+	border-bottom: 2px solid red;
+}
+.tren:hover .nen{
+	opacity: 1;
+}
+.tren .cacicon{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	z-index: 3;
+	width: 270px;
+	height: 50px;
+	text-align: center;
+	margin-top: -25px;
+	transform: scale(0);
+	transition: 0.4s;
+}
+.tren:hover .cacicon{
+	transform: scale(1);
+	transition-delay: 0.4s;
+}
+.duoi{
+	
+	text-align: center;
+	padding: 20px;
+}
+.duoi a{
+	text-decoration: none;
+	color: black;
+}
+.duoi a:hover{
+	
+	color: orange;
+}
+.duoi .gia{
+	padding-top: 15px;
+	color: orange;
+}

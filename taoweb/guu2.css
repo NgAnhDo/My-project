@@ -1,0 +1,65 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+article.guu2 .tren{
+	width: 360px;
+	height: 203px;
+	position: relative;
+	overflow: hidden;
+}
+article.guu2 .tren .layer4{
+	width: 360px;
+}
+article.guu2 .tren .layer5{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 1;
+	
+	background-color: orange;
+	color: white;
+	padding: 4px 8px;
+
+}
+article.guu2 .tren .layer6{
+	position: absolute;
+	bottom:-10px;
+	left: 10px;
+	z-index: 2;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background:white;
+	transform: rotate(45deg);
+}
+article.guu2 .giua{
+	width: 360px;
+	height: 34px;
+	margin: 8px 0px;
+
+}
+article.guu2 .giua .layer7{
+	width: 34px;
+	border-radius: 50%;
+	float: left;
+}
+.layer8{
+	text-decoration: none;
+	color: black;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 7px 40px 0px;
+    display: block;
+}
+p{
+	width: 90px
+	height:25;
+	float: right;
+	padding-top: 7px;
+}
+.icon{
+	padding-left: 0px;
+	display: block;
+}

@@ -1,0 +1,45 @@
+.tintrai{
+	width: 212px;
+    height: 57px;
+    background-image: url(5.jpg);
+    padding-top: 363px;
+    float: left;
+}
+.tdtt{
+	text-decoration: none;
+	color: red;
+	background-color: #00000059;
+	padding: 10px;
+	display: block;
+}
+.phai{
+	width: 700px;
+	height: 420px;
+	background-color: #88c8e6;
+}
+.tinphai{
+	width: 680px;
+	height: 124px;
+}
+.tinphai img{
+	width: 200px;
+	padding: 10px 10px 0px 10px;
+	float: left;
+}
+.phai .tieude{
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    font-family: tohama;
+    padding: 10px;
+    display: block;
+}
+p{
+    font-family: tahoma;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: -2px;
+    margin-right: 10px;
+    display: block;
+}

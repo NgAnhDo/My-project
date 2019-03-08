@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+.bo{
+	width: 100%;
+	height: 650px;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+.bo .layer1{
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+	animation:zoomlen 10s forwards ;
+
+	
+	
+}
+.chuto{
+	font-size: 50px;
+
+}
+.chunho{
+	font-size: 18px;
+}
+.bo .layer2{
+	position: absolute;
+	z-index: 2;
+	top:50%;
+	left: 50%;
+	color:white;
+	text-align: center;
+	width: 700px;
+	height: 90px;
+	margin-left: -350px;
+	opacity: 0;
+	animation:divao 5s forwards ;
+	animation-delay: 1s;
+
+}
+/*.bo .layer1:hover{
+	transform: scale(2);
+}*/
+@-webkit-keyframes zoomlen{
+	from{transform:scale(1);}
+	to {transform :scale(2);}
+}
+@-webkit-keyframes divao{
+	from{top:40%;opacity: 0;}
+	to {top:50%;opacity: 1;}
+}

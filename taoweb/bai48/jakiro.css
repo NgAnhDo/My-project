@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+
+.ndso1 {
+    width: 1150px;
+    margin: auto;
+    
+    font-size: 30px;
+    color: black;
+    padding-top: 250px;
+}
+
+.chunho {
+	font-size: 18px;
+
+
+}
+.so1{
+	text-align: right;
+	background-image: url(4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position-x:-40px;
+	height: 650px;
+	width: 100%;
+}
+.chuto{
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a.nut{
+	background-color: black;
+	color: white;
+	display: inline-block;
+	text-decoration:none;
+	padding: 12px 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+a.nut:hover{
+	background-color: transparent;
+	color: black;
+	display: inline-block;
+	text-decoration:none;
+	padding: 12px 25px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.so2{
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position-x:-70px;
+	height: 650px;
+	width: 100%;
+	text-align:center;
+}
+.ndso2 {
+    width: 1150px;
+    margin: auto;
+    
+    font-size: 30px;
+    color: white;
+    padding-top: 250px;
+}
+.so3{
+	background-image: url(5.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position-x:-60px;
+	height: 650px;
+	width: 100%;
+	text-align:left;
+}
+.ndso3 {
+    width: 1150px;
+    margin: auto;
+    
+    font-size: 30px;
+    color: black;
+    padding-top: 150px;
+}

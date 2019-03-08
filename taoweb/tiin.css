@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.to{
+	width: 310px;
+	height: 240px;
+	position: relative;
+	
+}
+a.layer1{
+	text-decoration: none;
+	color: black;
+	font-family: tahoma;
+	font-weight: bold;
+	
+	width: 310px;
+	background-color: #f8f1f7;
+
+}
+.layer1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.layer1 img{
+	width: 297px;
+	padding-left: 6.5px;
+}
+.layer2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 310px;
+	height: 40px;
+	background-image: url(anhtiin.png);
+	background-position: 0 -620px;
+}
+.layer2 h2{
+	display: none;
+}

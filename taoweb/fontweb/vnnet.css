@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div.tren{
+	width: 450px;
+	height: 326px;
+
+}
+.tren img{
+	width: 450px;
+}
+.tdto{
+	    color: #000;
+	    font-family: tahoma;
+	    font-size: 19px;
+	    font-weight: bold;
+	    text-decoration: none;
+	    padding-top: 10px;
+
+}
+.tdto:hover{
+	color: red;
+}
+p{
+	    font-family: tahoma;
+	    color: #666;
+	    font-size: 13px;
+	    margin-top: 0px;
+	    margin-right: 10px;
+	    line-height: 18px;
+	    display: block;
+}
+.iconyt{
+	color: #a6a6a6;
+}
+.duoi{
+	width: 450px;
+	height: 265px;
+	padding-top: 10px;
+}
+.tin{
+	width: 141px;
+	height: 140px;
+	padding-right: 13.5px;
+	float: left;
+}
+.tin img{
+	width: 141px;
+}
+.tdduoi{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 13px;
+	color: black;
+}
+.tin:nth-child(3n){
+	padding-right: 0px;
+}

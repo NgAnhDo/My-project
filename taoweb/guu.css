@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.banner{
+	width: 1146px;
+	margin: auto;
+	display: block;
+}
+a.khoinho{
+	width: 282px;
+	height: 210px;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	font-family: tahoma;
+	font-weight: bold;
+	float: left;
+	overflow: hidden;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	
+}
+a.khoinho.tohon{
+	overflow: hidden;
+	width: 568px;
+	height: 425px;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	font-family: tahoma;
+	font-weight: bold;
+	margin-right: 4px;
+	margin-bottom: 5px;
+}
+a.khoinho .layer1{
+	width: 282px;
+	z-index: 1;
+}
+a.khoinho.tohon .layer1{
+	width: 568px;
+	z-index: 1;
+}
+a.khoinho .layer2{
+	width: 282px;
+	height: 210px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	transition: 0.9s;
+	z-index: 2;
+	background-image: -webkit-linear-gradient(top,#ffffff00 60%,#000000e0 100%);
+}
+a.khoinho.tohon .layer2{
+	width: 568px;
+	height: 245px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	transition: 0.9s;
+	z-index: 2;
+	background-image: -webkit-linear-gradient(top,#ffffff00 60%,#000000e0 100%);
+}
+a.khoinho.tohon:hover .layer2{
+	opacity: 0;
+}
+a.khoinho:hover .layer2{
+	opacity: 0;
+}
+a.khoinho .layer3{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 3;
+	padding: 8px 13px;
+}
+a.khoinho.tohon .layer3{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 3;
+	padding: 8px 13px;
+}

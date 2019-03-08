@@ -1,0 +1,39 @@
+a.themtin {
+    display: block;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+     padding-bottom: 10px;
+    background-image: url(cham.jpg);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    padding-left: 367px;
+}
+}
+
+p.noidung {
+    margin: 0;
+    font-family: tahoma;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 11px 0;
+}
+
+a.tieude {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: #26c10c;
+    font-family: tohama;
+}
+article._1tiin{
+  width:670px;
+  height:383px;
+}
+img{
+    width: 335px;
+    height: 383px:;
+    float:left;
+    margin:10px;
+  }

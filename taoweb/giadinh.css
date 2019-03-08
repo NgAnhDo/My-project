@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0}
+.xahoi{
+	width: 430px;
+	height: 360px;
+	overflow: hidden;
+	margin: auto;
+}
+.tieude{
+	text-align: center;
+	border-top: 1px solid brown;
+}
+.tieude a{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: red;
+	background-color: white;
+	position: relative;
+	top: 14px;
+}
+.vien{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	height: 3px;
+}
+.tin{
+	padding-top: 20px;
+}
+.tin img{
+	float: left;
+	margin-right: 10px;
+	border:1px solid #00000052;
+	padding: 2px;
+	box-shadow: 4px 4px 0px #80808040;
+}
+div.dstin ul{
+	margin-top: 50px;
+	margin-left: 4px;
+	list-style: none;
+}
+.dstin ul li{
+	border-bottom: 1px dotted #808080a1;
+	padding: 10px 0px;
+}
+.tin .layer2{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+	display: block;
+}
+.tin p{
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	color: black;
+	display: block;
+}
+.dstin i{
+	font-size: 4px;
+	color: red;
+	padding-right: 11px;
+	position: relative;
+	top: -3px;
+}
+li{
+	
+	font-family: tahoma;
+
+}
+.dstin a{
+	font-size: 13px;
+	text-decoration: none;
+	color:black;
+}

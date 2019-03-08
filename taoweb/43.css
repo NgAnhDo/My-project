@@ -1,0 +1,31 @@
+*{margin: 0;padding:0;}
+div.anhto{
+	width: 700px;
+	height: 586px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid black;
+}
+.anhto .layer1{
+	width: 700px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+.anhto .layer2{
+	width: 700px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.5);
+	width: 900px;
+}
+.noidung{
+	color: red;
+	width: 700px;
+}
+.anh{
+	
+}

@@ -1,0 +1,60 @@
+article.tinnho{
+	width: 325px;
+	height: 365px;
+	margin-right: 20px;
+	border: 1px solid #E9E9E9;
+	float: left;
+}
+article.tinnho img{
+	width: 100%;
+	padding-bottom: 12px;
+}
+a.tdtinnho{
+	text-decoration: none;
+	color: black;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 34px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+}
+p.thoigian{
+	font-family: tahoma;
+	font-size: 11px;
+	color: grey;
+	padding: 0px 0px 10px 10px;
+}
+article.tinto{
+	width: 678px;
+	margin-bottom: 20px;
+	overflow:  hidden;
+}
+article.tinto img{
+	float: left;
+	width: 441px;
+	margin-right: 22px;
+}
+.phai{
+	text-decoration: none;
+	font-family: tomaha;
+	font-size: 13px;
+}
+.tinto .phai .tdto{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color:#414141;	
+}
+.tinto .phai .tdto:hover{
+	color: orange;
+}
+.tentacgia{
+	text-align: center;
+	display: block;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #414141;
+	font-style: italic;
+}

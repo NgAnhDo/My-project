@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+a.khoi1{
+	display: block;
+	width: 500px;
+	height: 500px;
+	background-image: url(tinto.jpg);
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+.noidungk1{
+	width: 70%;
+	height: 40%
+}
+img{
+	float: left;
+}
+p{
+	display: block;
+	padding-top: 30px;
+}

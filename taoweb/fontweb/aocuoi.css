@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.tren{
+	width:700px; 
+	height:40px ;
+	border-top: 2px solid gray:
+	padding-top:13px;
+	margin:auto;
+	margin-top: 20px; 
+}
+a.tdto{
+	text-decoration: none;
+	font-family: tohama;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+
+}
+a.xt{
+	float:right;
+	margin-top: -17px;
+	text-decoration: none;
+}
+.iconten{
+	float:right;
+}
